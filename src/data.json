@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "question": "What is the difference between `null` and `undefined` in JavaScript?",
+      "answer": "`null` is an assignment value that represents the intentional absence of any object value. `undefined` indicates that a variable has been declared but has not yet been assigned a value. In other words, `undefined` is the default value for uninitialized variables, while `null` is explicitly assigned to indicate 'no value'."
+    },
+    {
+      "question": "What is a closure in JavaScript?",
+      "answer": "A closure is a feature in JavaScript where an inner function retains access to the variables of its outer function even after the outer function has finished executing. This allows the inner function to 'close over' the outer function’s scope."
+    },
+    {
+      "question": "What are React hooks and why are they used?",
+      "answer": "React hooks are functions that let you use state and other React features without writing a class. They are used to manage state, lifecycle methods, and side effects in functional components, promoting code reuse and simplifying component logic."
+    },
+    {
+      "question": "What is the purpose of `useEffect` in React?",
+      "answer": "`useEffect` is a React hook that performs side effects in functional components. It can be used to manage things like data fetching, subscriptions, or manually changing the DOM. It replaces lifecycle methods such as `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount` in class components."
+    },
+    {
+      "question": "What is the difference between `props` and `state` in React?",
+      "answer": "In React, `props` are used to pass data from a parent component to a child component and are immutable within the child component. `State`, on the other hand, is used to manage data that can change over time and is mutable within the component that owns it."
+    },
+    {
+      "question": "What is event delegation in JavaScript?",
+      "answer": "Event delegation is a technique where a single event listener is added to a parent element to manage events for multiple child elements. Instead of adding event listeners to each child element, the parent element listens for events that bubble up from its children, reducing memory usage and improving performance."
+    },
+    {
+      "question": "How does the `key` prop work in React?",
+      "answer": "The `key` prop is used in React to identify which items in a list have changed, are added, or are removed. It helps React optimize rendering by quickly determining which items need to be updated. Each key should be unique among siblings to ensure efficient re-rendering."
+    },
+    {
+      "question": "What is the Virtual DOM in React?",
+      "answer": "The Virtual DOM is a lightweight in-memory representation of the actual DOM. React uses it to optimize updates by diffing the Virtual DOM with the previous version and only applying changes to the real DOM that have actually occurred. This improves performance by minimizing direct manipulations of the DOM."
+    },
+    {
+      "question": "What is the difference between `==` and `===` in JavaScript?",
+      "answer": "`==` is the equality operator that performs type coercion, meaning it converts operands to the same type before comparing them. `===` is the strict equality operator that compares both the value and type of the operands without type coercion."
+    },
+    {
+      "question": "What are controlled components in React?",
+      "answer": "Controlled components are React components that do not manage their own state but instead receive their current value and update callback via `props`. They rely on the parent component to handle state changes and updates, leading to a single source of truth for the form data."
+    }
+  ]
+}
